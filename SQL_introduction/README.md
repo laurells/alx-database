@@ -10,7 +10,7 @@ A database is a structured collection of data stored in a systematic manner for 
 
 A relational database is a type of database that stores data in tables, where each table represents a specific entity, and the relationships between entities are established using keys and indexes.
 
-## What Does SQL Stand For?
+## What Does SQL Stand For in database?
 
 SQL stands for **Structured Query Language**. It is a programming language designed for managing and manipulating relational databases. SQL provides a standardized way to communicate with databases, enabling users to perform tasks like querying, updating, and managing data.
 
