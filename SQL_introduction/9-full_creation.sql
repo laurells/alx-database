@@ -1,17 +1,11 @@
--- Create the database 'hbtn_0c_0' if it doesn't exist
-CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
-
--- Use the 'hbtn_0c_0' database
-USE hbtn_0c_0;
-
--- Create the table 'second_table' if it doesn't already exist
+-- Create second_table if it doesn't exist
 CREATE TABLE IF NOT EXISTS second_table (
-    id INT,
+    id INT PRIMARY KEY,
     name VARCHAR(256),
     score INT
 );
 
--- Insert multiple rows into 'second_table'
+-- Insert rows into the second_table
 INSERT INTO second_table (id, name, score) VALUES
     (1, 'John', 10),
     (2, 'Alex', 3),

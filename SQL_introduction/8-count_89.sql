@@ -1,7 +1,4 @@
--- Display the count of records with id = 89 in 'first_table'
-SELECT
-    COUNT(*)
-FROM
-    hbtn_0c_0.first_table
-WHERE
-    id = 89;
+-- displays the number of records 
+SELECT COUNT(*) AS record_count
+FROM first_table
+WHERE id = 89;
